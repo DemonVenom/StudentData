@@ -10,11 +10,13 @@
 
 The New button clears the form and allows the user to enter more data, which does NOT have to be validated (i.e., assume the user fills the form out correctly). The Save button saves the data entered in a text file whose name is the Student ID field (in the example the name would be 987654321); the contents of the 987654321 file in the example would contain the strings:
 
-John Smith
-987654321
-first
-adult
-male
+
+   John Smith
+   987654321
+   first
+   adult
+   male
+
 
 Use the Formatter class to populate the text file (and be sure to close it after writing it!). The Exit button exits the program AFTER warning the user using a JOptionPane modal window:
 
