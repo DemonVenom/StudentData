@@ -24,6 +24,6 @@ Use the Formatter class to populate the text file (and be sure to close it after
 
 Ensure this window appears OVER the StudentData window by declaring and initializing:
 
-   private Component parent = this;
+    private Component parent = this;
 
 in your program, and then pass the parent variable as the first parameter to the JOptionPane.showMessageDialog() method. If the user selects Yes, then exit the program.
